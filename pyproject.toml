@@ -1,0 +1,12 @@
+[project]
+name = "ai-critiquer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=2.7.0",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.2.2",
+    "streamlit",
+]
